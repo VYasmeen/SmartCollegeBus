@@ -1,7 +1,3 @@
-# SmartCollegeBusTrackingSystem
-
----
-
 # Bus Tracking System (GPS + GSM Based)
 
 A real-time Vehicle/Bus Tracking System built using Arduino, GPS, and GSM modules.
@@ -165,5 +161,3 @@ This project demonstrates:
 This project is developed for academic and educational purposes.
 
 ---
-
-
