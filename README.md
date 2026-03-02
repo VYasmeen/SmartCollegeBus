@@ -5,8 +5,6 @@ This system retrieves live location coordinates (latitude and longitude) and sen
 
 The system is designed to provide location-based tracking services for transportation monitoring and fleet management.
 
----
-
 ## Project Overview
 
 The Bus Tracking System enables remote users to track a vehicle's real-time location using:
@@ -18,8 +16,6 @@ The Bus Tracking System enables remote users to track a vehicle's real-time loca
 
 When a user sends the command **"Track Vehicle"**, the system fetches the latest GPS data and sends the current location via SMS.
 
----
-
 ## Key Features
 
 * Real-time GPS location tracking
@@ -28,8 +24,6 @@ When a user sends the command **"Track Vehicle"**, the system fetches the latest
 * GSM network communication using AT commands
 * Automatic module initialization
 * Location-based tracking functionality
-
----
 
 ## System Working
 
@@ -43,8 +37,6 @@ When a user sends the command **"Track Vehicle"**, the system fetches the latest
    * Sends the location details via SMS.
 6. LCD displays system states such as initialization, GPS ready, and message sent.
 
----
-
 ## Hardware Components
 
 * Arduino Uno (or compatible board)
@@ -54,7 +46,6 @@ When a user sends the command **"Track Vehicle"**, the system fetches the latest
 * Active SIM card
 * Jumper wires and power supply
 
----
 
 ## Pin Configuration
 
@@ -76,7 +67,6 @@ When a user sends the command **"Track Vehicle"**, the system fetches the latest
 | RX      | 10          |
 | TX      | 11          |
 
----
 
 ## Technologies Used
 
@@ -85,8 +75,6 @@ When a user sends the command **"Track Vehicle"**, the system fetches the latest
 * GSM / GPRS (General Packet Radio Service)
 * LiquidCrystal Library
 * SoftwareSerial Library
-
----
 
 ## Code Highlights
 
@@ -108,8 +96,6 @@ The system uses AT commands such as:
 * Displays coordinates on LCD
 * Sends coordinates via SMS
 
----
-
 ## SMS Format
 
 ```
@@ -121,8 +107,6 @@ Please take some action soon.
 Thank you
 ```
 
----
-
 ## Applications
 
 * Public bus monitoring
@@ -131,8 +115,6 @@ Thank you
 * Emergency vehicle tracking
 * Location-based mobile services
 
----
-
 ## Future Enhancements
 
 * Google Maps link generation in SMS
@@ -140,8 +122,6 @@ Thank you
 * Cloud database integration
 * IoT-based monitoring using MQTT
 * Real-time analytics for fleet optimization
-
----
 
 ## Learning Outcomes
 
@@ -154,10 +134,6 @@ This project demonstrates:
 * Real-time tracking system design
 * Implementation of location-based services
 
----
-
 ## License
 
 This project is developed for academic and educational purposes.
-
----
